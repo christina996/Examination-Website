@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600' rel='stylesheet' type='text/css'>
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="regpage">
+    <div class="testbox">
+      <h1>Registration</h1>
+      <form>
+          <hr>
+          <div class="row">
+       <div class="input-block">
+      <label id="icon" for="name"><i class="icon-user"></i></label>
+      <input type="text" name="Name" id="name" placeholder="Name" />
+      <span id="userName"></span>
+       </div>
+       <div class="input-block"> 
+      <label id="icon" for="age"><i class="icon-calendar"></i></label>
+      <input type="number" name="Age" id="age" placeholder="Age" />
+      <span id="userAge"></span>
+       </div>
+    </div>
+    <div class="row">
+       <div class="input-block"> 
+      <label id="icon" for="phone"><i class="icon-phone"></i></label>
+      <input type="number" name="Phone" id="phone" placeholder="Phone Number" />
+      <span id="userPhone"></span>
+      </div>
+
+      <div class="input-block"> 
+      <label id="icon" for="email"><i class="icon-envelope "></i></label>
+      <input type="text" name="Email" id="email" placeholder="Email" />
+      <span id="userEmail"></span>
+      </div>
+    </div>
+    <div class="row">
+            <div class="input-block"> 
+            <label id="icon" for="password"><i class="icon-shield"></i></label>
+            <input type="password" name="Password" id="password" placeholder="Password" />
+            <span id="userPassword"></span>
+            </div>
+      
+            <div class="input-block"> 
+            <label id="icon" for="confirmpassword"><i class="icon-shield"></i></label>
+            <input type="password" name="Confirm Password" id="confirmpassword" placeholder="Confirm Password" />
+            <span id="userConfPass"></span>
+            </div>
+      </div>
+
+      <div class="gender">
+        <input type="radio" value="male" id="male" name="gender" checked/>
+        <label for="male" class="radio" chec>Male</label>
+        <input type="radio" value="female" id="female" name="gender" />
+        <label for="female" class="radio">Female</label>
+       </div> 
+       <div class="footer">
+       <p>By clicking Register, you agree on our <a href="#" style="color: black;">terms and condition</a>.</p>
+       <a href="#" class="button" id="regtration-btn">Register</a>
+      </div>
+      </form>
+    </div>
+</div>
+      <script src="main.js"></script>
+</body>
+</html>

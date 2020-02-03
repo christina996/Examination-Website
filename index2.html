@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style2.css">
+</head>
+<body>
+    <div class="exam">
+        <div class="header">
+                <h2>Online Test</h2>
+            </div>
+    <div class="container cols">
+
+    <div class="col-1">
+        <div class="question-container">
+     <h1 id="quesNo"></h1>
+     <hr>
+     <div style="height: 270px;">
+     <div id="question">
+
+     </div>
+     <div id="answer" class="hide">
+                    <input type="radio" value="a" id="a" name="answer"/>
+                    <label for="ans-1" class="radio" id="ans-1"></label>
+                    <div class="check"></div>
+                    <input type="radio" value="b" id="b" name="answer" />
+                    <label for="ans-2" id="ans-2" class="radio"></label>
+                    <input type="radio" value="c" id="c" name="answer" />
+                    <label for="ans-3" id="ans-3" class="radio"></label>
+     </div>
+     <div class="out-of"></div>
+    </div>
+</div>
+     <div class="btns">
+            <div class="model-1"> 
+                    <div class="overlay" id="overlay"></div>
+                    <a href="#" class="button" id="test-submit">Submit Test</a>
+                    <div class="modal" id="modal">
+                        <button class="modal-close-btn" id="close-btn"><i class="fa fa-window-close" aria-hidden="true"></i></button>
+                              <div class="modal-header">
+                                <h4 class="username"></h4>
+                                <h5 class="modal-title">You Finished The Exam</h5>
+                              </div>
+                              <div class="modal-body">
+                                
+                                Your Score :
+                              </div>
+            
+                            
+                            </div>
+                </div>
+                
+            <div class="next-prev-btns">
+                <div>
+                  <a href="#" class="button" id="Next-btn" >Next</a>
+              </div>
+          <div> 
+                  <a href="#" class="button" id="prev-btn">Previous</a>
+              </div>
+            </div> 
+              <div> 
+                      <a href="#" class="button" id="Marked-btn">Mark For Review</a>
+                  </div>
+              </div>
+              
+
+    </div>
+   
+    <div  class="col-2">
+    <h4>Questions Palette :</h4>
+    
+    <div class="qes-list">
+    <div class="circleQuestion ques-1">1</div>
+    <div class="circleQuestion ques-2">2</div>
+    <div class="circleQuestion ques-3">3</div>
+    <div class="circleQuestion ques-4">4</div>
+    <div class="circleQuestion ques-5">5</div>
+    <div class="circleQuestion ques-6">6</div>
+     </div>
+    <!-- <div class="circleQuestion">4</div>
+    <div class="circleQuestion">5</div> -->
+    </div>
+    <div  class="col-3">
+            <h4 class="marked-title">Marked Questions :</h4>
+           <div class="marked-list"></div>
+    </div>
+</div>
+<div class=" footer">
+            <div class="labels">
+                <div>
+                <div class="current" style="background-color: #2C7CC1;"></div>
+                <div>Current</div>
+            </div>
+            <div>
+                <div class="NotAttempted" style="background-color: #E9E9E9;"></div>
+                <div>Not Attempted</div>
+            </div>
+            <div>
+                <div class="Answered" style="background-color: #398B38;"></div>
+                <div>Answered</div>
+            </div>
+            <div>
+                <div class="NotAnswered" style="background-color: #DB7A02;"></div>
+                <div>Not Answered</div>
+            </div>
+            <div>
+                <div class="Marked" style="background-color: #A40502;"></div>
+                <div>Marked</div>
+            </div>
+
+            </div>
+            <div>
+
+            </div>
+        </div>
+</div>
+    <script src="maintest2.js"></script>
+</body>
+</html>
